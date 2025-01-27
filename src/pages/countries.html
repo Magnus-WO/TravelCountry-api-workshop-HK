@@ -29,6 +29,7 @@
         </a>
       </div>
       <div class="explore-countries">
+        <!-- Form -->
         <form class="search-form">
           <label for="search" class="search-form__label">Country name</label>
           <input
@@ -45,11 +46,13 @@
         <p class="search-form__error-message">error message</p>
         <div class="country-card-container">
           <span class="country-card__image"></span>
-          <div class="country-card">
+          <!--  Country card-->
+          <div class="country-card--style" id="country-card">
             <ul class="country-card__list"></ul>
           </div>
         </div>
       </div>
     </main>
+    <script src="../js/fetchCountries.js" type="module"></script>
   </body>
 </html>
